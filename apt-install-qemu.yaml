@@ -5,5 +5,5 @@
    tasks: 
     - name: Ansible apt install qemu-guest-agent
       apt:
-        name: qemu-guest-agent
+        name: net-tools
         state: present
